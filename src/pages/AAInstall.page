@@ -1,0 +1,98 @@
+<apex:page sidebar="false" >
+<apex:form >
+  <div align="center">
+      <apex:image value="{!URLFOR($Resource.AdminAssistant,'VFHeader.png')}" width="100%" />
+  </div>
+  <br/>
+  <br/>
+  <apex:pageBlock mode="maindetail" title="CRM Science Admin Assistant">
+      <apex:pageBlockButtons location="Both" >
+          <apex:commandLink styleClass="btn" style="text-decoration:none;" value="Install From Chrome Store" target="_blank" action="https://chrome.google.com/webstore/detail/crm-science-admin-assista/planmenddmekajogfkcfaijafiaobiei" />
+      </apex:pageBlockButtons>
+      <apex:pageBlockSection title="About" columns="1" >
+          <apex:pageBlockSectionItem >
+              This extension provides Salesforce.com administrators with
+              tools and settings to facilitate the day to day functions and 
+              responsibilities they may be faced with.  It was created to reduce the number
+              of unecessary clicks Salesforce Admins routintely have to endure.
+          </apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+      <apex:pageBlockSection title="Features" columns="2" >
+          <apex:pageBlockSectionItem >
+              <ul>
+                  <li>General<ul>
+                          <li>Show Max Results</li>
+                          <li>Hide Chatter Window</li>
+                          <li>Mass Delete Selected</li>
+                      </ul>
+                  </li>
+                  <li>Profile - Apps and Tabs<ul>
+                          <li>Toggle App Visibility</li>
+                          <li>Toggle Tab Visibility</li>
+                      </ul>
+                  </li>
+                  <li>Profile - Objects<ul>
+                      <li>Toggle CRUD Settings (Create, Read, Update, Delete)</li>
+                      <li>Toggle View All, and Modify All</li>
+                      </ul>
+                  </li>
+                  <li>Profile - Fields<ul>
+                          <li>Toggle Field Visibility</li>
+                          <li>Toggle Field Read-Only State</li>
+                      </ul>
+                  </li>
+              </ul>
+          </apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+      <apex:pageBlockSection title="How to Install" columns="1" >
+          <apex:pageBlockSectionItem >
+              <apex:outputPanel >
+              <ol>
+                  <li>
+                      If you are not a Google Chrome user, <a href="http://www.google.com/chrome" target="_blank">download the Chrome browser here</a>.
+                  </li>
+                  <li>
+                      In Chrome, install this extension from the Chrome Web Store by &nbsp;
+                      <apex:commandLink value="clicking here" target="_blank" action="https://chrome.google.com/webstore/detail/crm-science-admin-assista/planmenddmekajogfkcfaijafiaobiei" />
+                      or by clicking the "Install" button found at the top and bottom of this page.
+                  </li>
+                  <li>
+                      Within the Chrome Web Store, click on the blue "ADD TO CHROME" button in the upper-right hand corner.
+                  </li>
+                  <li>
+                      After installation, whenever you are on a Salesforce.com page, the CRM Science logo will appear at the end of the URL bar.  Click on this to access the new tools!
+                      <div align="center"><br />
+                          <apex:commandLink action="{!URLFOR($Resource.AdminAssistant,'URLImage.png')}" target="_blank" >
+                          <apex:image value="{!URLFOR($Resource.AdminAssistant,'URLImage.png')}" width="50%"/>
+                          </apex:commandLink>
+                      </div>
+                  </li>
+              </ol>
+              </apex:outputPanel>
+          </apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+            <apex:pageBlockSection title="Screenshots" columns="1" >
+          <apex:pageBlockSectionItem >
+              <apex:outputPanel >
+              <div align="center">
+                  <apex:commandLink action="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_General.png')}" target="_blank" >
+                      <apex:image value="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_General.png')}" width="25%" />
+                  </apex:commandLink>
+                  <apex:commandLink action="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_Profile_Apps_Fields.png')}" target="_blank" >
+                      <apex:image value="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_Profile_Apps_Fields.png')}" width="25%" />
+                  </apex:commandLink>
+                  <br />
+                  
+                  <apex:commandLink action="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_Profile_Apps_Objects.png')}" target="_blank" >
+                  <apex:image value="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_Profile_Apps_Objects.png')}" width="25%" />
+                  </apex:commandLink>
+                  <apex:commandLink action="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_Profile_Apps_Tabs.png')}" target="_blank" >
+                      <apex:image value="{!URLFOR($Resource.AdminAssistant,'Admin_Assistant_Screenshots_Profile_Apps_Tabs.png')}" width="25%" />
+                  </apex:commandLink>
+              </div>
+              </apex:outputPanel>
+          </apex:pageBlockSectionItem>
+      </apex:pageBlockSection>
+  </apex:pageBlock>
+  </apex:form>
+</apex:page>

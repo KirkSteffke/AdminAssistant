@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AACRMScience</members>
+        <members>AAInstall</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Admin_Assistant</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>AdminAssistant</members>
+        <members>CRM_Science</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Admin_Assistant</members>
+        <members>Admin_Assistant/Admin_Assistant.png</members>
+        <name>Document</name>
+    </types>
+    <version>28.0</version>
+</Package>
