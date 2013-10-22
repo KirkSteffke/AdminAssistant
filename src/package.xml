@@ -5,19 +5,5 @@
         <members>AAInstall</members>
         <name>ApexPage</name>
     </types>
-    <types>
-        <members>Admin_Assistant</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <members>AdminAssistant</members>
-        <members>CRM_Science</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>Admin_Assistant</members>
-        <members>Admin_Assistant/Admin_Assistant.png</members>
-        <name>Document</name>
-    </types>
-    <version>28.0</version>
+    <version>29.0</version>
 </Package>
